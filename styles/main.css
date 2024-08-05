@@ -81,6 +81,7 @@ nav ul {
   display: flex;
   align-items: center;
   justify-content: center;
+  background: var(--main-color);
 }
 .title-block__logo {
   letter-spacing: 3px;
@@ -88,7 +89,7 @@ nav ul {
   text-align: center;
   font-size: 25px;
   font-weight: 700;
-  color: var(--main-color);
+  color: var(--white-color);
 }
 .title-block__logo img {
   width: 500px;
@@ -102,7 +103,7 @@ nav ul {
   width: 500px;
   height: 10px;
   bottom: 0;
-  background: white;
+  background: var(--main-color);
 }
 
 /* services */
@@ -248,8 +249,8 @@ footer {
   width: 100%;
   min-height: 300px;
   overflow-y: hidden;
-  background: #fcfcfc;
-  border-top: 1px solid var(--main-color);
+  background: var(--main-color);
+  border-top: 1px solid rgba(126, 126, 126, 0.15);
 }
 .footer-inner {
   display: flex;
@@ -270,12 +271,12 @@ footer {
 .footer-inner__logo-block h1 {
   font-size: 30px;
   font-weight: 700;
-  color: var(--main-color);
+  color: var(--white-color);
 }
 .footer-inner__text {
   font-size: 30px;
   font-weight: 600;
-  color: #000000;
+  color: var(--white-color);
   margin-bottom: 30px;
 }
 .footer-inner__logo-block img {
@@ -292,7 +293,7 @@ footer {
   text-decoration: none;
   font-size: 20px;
   font-weight: 600;
-  color: var(--main-color);
+  color: var(--white-color);
 }
 
 /* examples */
@@ -363,14 +364,14 @@ footer {
 .form-block {
   width: 100%;
   height: 65vh;
-  background: #fcfcfc;
+  background: var(--main-color);
   padding-top: 5vh;
 }
 .form-block__title {
   text-align: center;
   font-size: 45px;
   font-weight: 700;
-  color: var(--main-color);
+  color: var(--white-color);
 }
 .form-wrapper {
   display: flex;
@@ -403,13 +404,13 @@ footer {
   font-weight: 600;
   width: 300px;
   height: 50px;
-  background: var(--main-color);
-  color: var(--white-color);
+  background: var(--white-color);
+  color: var(--main-color);
   border: 1px solid rgba(126, 126, 126, 0.15);
 }
-.form__input::placeholder{
-  color: var(--white-color);
-  opacity: 0.5;
+.form__input::placeholder {
+  color: var(--main-color);
+  opacity: 0.9;
 }
 .form__input:focus {
   outline: none;
@@ -424,21 +425,26 @@ footer {
   font-weight: 600;
   width: 300px;
   height: 50px;
-  background: var(--main-color);
-  color: var(--white-color);
+  background: var(--white-color);
+  color: var(--main-color);
   border: 1px solid rgba(126, 126, 126, 0.15);
+}
+.select::placeholder {
+  color: var(--main-color);
+  opacity: 0.9;
 }
 .form__btn {
   cursor: pointer;
   margin: 0 auto;
   width: 300px;
   height: 50px;
-  background: var(--main-color);
-  color: var(--white-color);
+  background: var(--white-color);
+  color: var(--main-color);
   border: 1px solid rgba(126, 126, 126, 0.15);
   font-size: 20px;
   font-weight: 600;
   transition: 0.2s;
+  border-radius: 10px;
 }
 .form__btn:hover {
   opacity: 0.8;
