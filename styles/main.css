@@ -149,11 +149,12 @@ nav ul {
 .services__inner-card__header p {
   font-size: 25px;
   font-weight: 700;
+  color: var(--main-color);
 }
 .services__inner-card__header span {
   display: block;
   padding: 5px 10px;
-  background: rgba(117, 86, 65, 0.5);
+  background: var(--main-color);
   color: #fcfcfc;
   border-radius: 5px;
   font-size: 20px;
@@ -166,6 +167,7 @@ nav ul {
   margin: 35px 0;
   font-size: 20px;
   font-weight: 600;
+  color: var(--main-color);
 }
 .line-block {
   display: flex;
@@ -177,13 +179,13 @@ nav ul {
   display: block;
   width: 90%;
   height: 3px;
-  background: rgba(117, 86, 65, 0.3);
+  background: var(--main-color);
   border-radius: 3px;
 }
 .line-block p {
   font-size: 20px;
   font-weight: 600;
-  color: #755641;
+  color: var(--main-color);
 }
 .services__inner-card__features {
   display: flex;
@@ -207,6 +209,7 @@ nav ul {
   display: flex;
   align-items: center;
   gap: 5px;
+  color: var(--main-color);
 }
 .services__inner-card__features li span {
   display: flex;
@@ -214,7 +217,7 @@ nav ul {
   justify-content: center;
   width: 25px;
   height: 25px;
-  background: #c0aea0;
+  background: var(--main-color);
   border-radius: 5px;
 }
 .services__inner-card__features li img {
@@ -232,8 +235,9 @@ nav ul {
   width: 60%;
   height: 50px;
   padding: 10px 20px;
-  background: rgba(192, 174, 160, 0.3);
+  background: var(--main-color);
   border-radius: 5px;
+  color: white;
   border: 1px solid rgba(126, 126, 126, 0.15);
   cursor: pointer;
   margin-bottom: 40px;
@@ -245,7 +249,8 @@ footer {
   min-height: 300px;
   overflow-y: hidden;
   background: #fcfcfc;
-  border-top: 1px solid rgba(126, 126, 126, 0.15);
+  border-top: 1px solid var(--main-color);
+  
 }
 .footer-inner {
   display: flex;
@@ -266,7 +271,7 @@ footer {
 .footer-inner__logo-block h1 {
   font-size: 30px;
   font-weight: 700;
-  color: #755641;
+  color: var(--main-color);
 }
 .footer-inner__text {
   font-size: 30px;
@@ -288,7 +293,8 @@ footer {
   text-decoration: none;
   font-size: 20px;
   font-weight: 600;
-  color: #755641;
+  color: var(--main-color);
+  
 }
 
 /* examples */
