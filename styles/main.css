@@ -1,5 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
-
+:root {
+  --main-color: #231b3a;
+  --white-color: #fcfcfc;
+}
 * {
   text-decoration: none;
   padding: 0;
@@ -31,7 +34,7 @@ header {
   top: 0; */
   width: 100%;
   height: 10vh;
-  background: #fcfcfc;
+  background: var(--main-color);
   border-bottom: 1px solid rgba(126, 126, 126, 0.15);
 }
 .header-inner__logo {
@@ -55,7 +58,7 @@ nav ul {
   font-size: 20px;
   font-weight: 500;
   /* color: black; */
-  color: #755641;
+  color: var(--white-color);
   padding-bottom: 5px;
   transition: 0.2s;
 }
@@ -64,7 +67,7 @@ nav ul {
   display: block;
   width: 0;
   height: 2px;
-  background: #755641;
+  background: var(--white-color);
   transition: 0.2s;
 }
 .header-inner__href:hover::after {
@@ -85,7 +88,7 @@ nav ul {
   text-align: center;
   font-size: 25px;
   font-weight: 700;
-  color: #755641;
+  color: var(--white-color);
 }
 .title-block__logo img {
   width: 500px;
@@ -107,7 +110,7 @@ nav ul {
 .services {
   height: 100vh;
   width: 100%;
-  background: #c0aea0;
+  background: var(--main-color);
   padding-top: 10vh;
 }
 .service__title {
@@ -128,7 +131,7 @@ nav ul {
   gap: 40px;
   overflow-x: auto;
   scroll-snap-type: x mandatory;
-  scrollbar-width: none
+  scrollbar-width: none;
 }
 .services__inner-card {
   height: 700px;
@@ -318,7 +321,7 @@ footer {
 .scheme {
   width: 100%;
   min-height: 35vh;
-  background: #c0aea0;
+  background: var(--main-color);
   padding-top: 5vh;
 }
 .scheme__title {
@@ -364,7 +367,7 @@ footer {
   font-size: 45px;
   font-weight: 700;
 }
-.form-wrapper{
+.form-wrapper {
   display: flex;
   align-items: center;
   justify-content: center;
