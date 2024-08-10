@@ -1,0 +1,28 @@
+.logo {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding: var(--padding);
+}
+
+.logo__body {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.logo__title {
+  color: white;
+  font-weight: bold;
+  font-size: clamp(1.2rem, 5vw, 3.125rem);
+}
+
+.logo__image {
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+}

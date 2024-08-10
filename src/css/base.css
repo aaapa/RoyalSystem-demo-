@@ -1,0 +1,77 @@
+@import url("modern-normalize.css");
+
+/* components */ 
+
+@import url("../../components/header/header.css");
+@import url("../../components/title/title.css");
+@import url("../../components/footer/footer.css");
+
+/* components */ 
+
+/* blocks */ 
+
+@import url("../../blocks/logo/logo.css");
+@import url("../../blocks/services/services.css");
+@import url("../../blocks/scheme/scheme.css");
+@import url("../../blocks/order/order.css");
+
+/* blocks */ 
+
+/* libraries */ 
+
+@import url("../libraries/swiper/swiper-bundle.min.css");
+
+/* libraries */ 
+
+/* fonts */ 
+
+@import url("fonts.css");
+
+/* fonts */ 
+
+
+:root {
+  --padding: 15px;
+  --whiteColor: #FCFCFC;
+  --mainColor: #231B3A;
+  --scale: 0.9;
+  --opacity: 0.5;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-weight: 400;
+  font-family: "JosefinSans", sans-serif;
+  scroll-behavior: smooth;
+  background-color: var(--mainColor);
+}
+
+html.--lock {
+  overflow: clip;
+}
+
+.container {
+  width: 100%;
+  margin: 0px auto;
+  max-width: 1300px;
+}
+
+.fullscreen {
+  min-height: 100dvh;
+}
+
+.wrapper {
+  width: 100%;
+  display: flex;
+  min-height: 100dvh;
+  flex-direction: column;
+}
+
+.main {
+  width: 100%;
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+}
