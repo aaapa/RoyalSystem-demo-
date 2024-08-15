@@ -19,7 +19,6 @@
   width: 100%;
   display: flex;
   gap: 30px;
-  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
 }
@@ -62,4 +61,21 @@
   font-weight: bold;
   color: #EFEFEF;
   font-size: 1.563rem;
+  text-align: center;
+}
+
+@media (max-width: 992px) {
+  .scheme__list {
+    flex-direction: column;
+  }
+
+  .scheme__list-item {
+    gap: 30px;
+    flex-direction: column;
+  }
+
+  .scheme__list-item::before {
+    margin-inline-end: unset;
+    rotate: 90deg;
+  }
 }
